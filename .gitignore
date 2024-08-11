@@ -5,3 +5,6 @@
 myproject/Lib/
 myproject/Scripts/
 .idea/
+__pycache__/
+*.pyc
+
