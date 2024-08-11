@@ -1,9 +1,14 @@
 from flask import Flask, render_template, request
 import requests
+import os
+from dotenv import load_dotenv
 from mongodb_connection import get_collection  # Adjust import if needed
 
+# Load environment variables from .env file
+load_dotenv()
+
 app = Flask(__name__)
-API_KEY = 'b2780621c5412bcf672d84d6a97eaba6'
+API_KEY = os.getenv('API_KEY')
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
