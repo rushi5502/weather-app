@@ -1,1 +1,7 @@
-".env" 
+# Ignore environment files
+.env
+
+# Ignore virtual environment directories
+myproject/Lib/
+myproject/Scripts/
+.idea/
