@@ -8,4 +8,6 @@ myproject/Scripts/
 __pycache__/
 *.pyc
 
+myproject/Include/
 myproject/pyvenv.cfg
+
