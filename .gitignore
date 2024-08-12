@@ -11,3 +11,4 @@ __pycache__/
 myproject/Include/
 myproject/pyvenv.cfg
 
+"myproject/" 
